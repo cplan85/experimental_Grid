@@ -59,10 +59,26 @@ h1 {
   display: flex;
 }
 
+.diamonds-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  left: 20rem;
+}
+
+.diamonds-container1 img {
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: -15rem;
+  width: 120%;
+}
+
 .diamond-grid1 {
   max-width: 50%;
   width: auto;
-  max-width: 70rem;
+  max-width: 36vw;
   float: none;
   display: block;
   margin-right: auto;
@@ -96,8 +112,8 @@ h1 {
   margin-right: 0%;
   background: #002315;
   border-radius: 2rem;
-  height: 8rem;
-  width: 8rem;
+  height: 4.5vw;
+  width: 4.5vw;
   border: solid 1px black;
 }
 
@@ -394,7 +410,7 @@ h1 {
 .diamond-grid2 {
   max-width: 50%;
   width: auto;
-  max-width: 60rem;
+  max-width: 36vw;
   float: none;
   display: block;
   margin-right: auto;
@@ -427,8 +443,8 @@ h1 {
   margin-right: 0%;
   background: #002315;
   border-radius: 5rem 0;
-  height: 15rem;
-  width: 15rem;
+  height: 9vw;
+  width: 9vw;
   border: solid 3px black;
 }
 
@@ -719,6 +735,480 @@ h1 {
 }
 
 .diamond-grid2 .diamond a:hover {
+  color: black;
+}
+
+.diamond-grid3 {
+  max-width: 50%;
+  width: auto;
+  max-width: 32rem;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: auto;
+  margin-top: 80rem;
+  max-height: 5rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.diamond-grid3::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.diamond-grid3 h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.diamond-grid3 .diamond {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 12.5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background: #002315;
+  border-radius: 2rem 0;
+  height: 4rem;
+  width: 4rem;
+  border: solid .5rem black;
+}
+
+.diamond-grid3 .diamond::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.diamond-grid3 .diamond:nth-child(1) {
+  background: #090909;
+}
+
+.diamond-grid3 .diamond:nth-child(1) > a {
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.diamond-grid3 .diamond:nth-child(2) {
+  background: #264029;
+}
+
+.diamond-grid3 .diamond:nth-child(3) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(4) {
+  background: #B48969;
+}
+
+.diamond-grid3 .diamond:nth-child(5) {
+  background: #0B0F0B;
+}
+
+.diamond-grid3 .diamond:nth-child(6) {
+  background: #0B0F0B;
+}
+
+.diamond-grid3 .diamond:nth-child(7) {
+  background: #264029;
+}
+
+.diamond-grid3 .diamond:nth-child(8) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(9) {
+  background: #0B0F0B;
+}
+
+.diamond-grid3 .diamond:nth-child(10) {
+  background: #0B0F0B;
+}
+
+.diamond-grid3 .diamond:nth-child(11) {
+  background: #1A2519;
+}
+
+.diamond-grid3 .diamond:nth-child(12) {
+  background: #B48969;
+}
+
+.diamond-grid3 .diamond:nth-child(13) {
+  background: #1A2519;
+}
+
+.diamond-grid3 .diamond:nth-child(14) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(15) {
+  background: #FFC6A8;
+}
+
+.diamond-grid3 .diamond:nth-child(16) {
+  background: #49553F;
+}
+
+.diamond-grid3 .diamond:nth-child(17) {
+  background: #49553F;
+}
+
+.diamond-grid3 .diamond:nth-child(18) {
+  background: #0A0B0A;
+}
+
+.diamond-grid3 .diamond:nth-child(19) {
+  background: #6D6A4F;
+}
+
+.diamond-grid3 .diamond:nth-child(20) {
+  background: #6D6A4F;
+}
+
+.diamond-grid3 .diamond:nth-child(21) {
+  background: #FFC6A8;
+}
+
+.diamond-grid3 .diamond:nth-child(22) {
+  background: #B48969;
+}
+
+.diamond-grid3 .diamond:nth-child(23) {
+  background: #0D160F;
+}
+
+.diamond-grid3 .diamond:nth-child(24) {
+  background: #6D6A4F;
+}
+
+.diamond-grid3 .diamond:nth-child(25) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(26) {
+  background: #0D160F;
+}
+
+.diamond-grid3 .diamond:nth-child(27) {
+  background: #112E22;
+}
+
+.diamond-grid3 .diamond:nth-child(28) {
+  background: #112E22;
+}
+
+.diamond-grid3 .diamond:nth-child(29) {
+  background: #112E22;
+}
+
+.diamond-grid3 .diamond:nth-child(30) {
+  background: #6D6A4F;
+}
+
+.diamond-grid3 .diamond:nth-child(31) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(32) {
+  background: #B48969;
+}
+
+.diamond-grid3 .diamond:nth-child(33) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(34) {
+  background: #0A0B0A;
+}
+
+.diamond-grid3 .diamond:nth-child(35) {
+  background: #1A2519;
+}
+
+.diamond-grid3 .diamond:nth-child(36) {
+  background: #264029;
+}
+
+.diamond-grid3 .diamond:nth-child(37) {
+  background: #49553F;
+}
+
+.diamond-grid3 .diamond:nth-child(38) {
+  background: #112E22;
+}
+
+.diamond-grid3 .diamond:nth-child(39) {
+  background: #1A2519;
+}
+
+.diamond-grid3 .diamond:nth-child(40) {
+  background: #F8E8E8;
+}
+
+.diamond-grid3 .diamond:nth-child(41) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(42) {
+  background: #0A0B0A;
+}
+
+.diamond-grid3 .diamond:nth-child(43) {
+  background: #B48969;
+}
+
+.diamond-grid3 .diamond:nth-child(44) {
+  background: #FFC6A8;
+}
+
+.diamond-grid3 .diamond:nth-child(45) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(46) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(47) {
+  background: #F8E8E8;
+}
+
+.diamond-grid3 .diamond:nth-child(48) {
+  background: #49553F;
+}
+
+.diamond-grid3 .diamond:nth-child(49) {
+  background: #49553F;
+}
+
+.diamond-grid3 .diamond:nth-child(50) {
+  background: #0A0B0A;
+}
+
+.diamond-grid3 .diamond:nth-child(51) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(52) {
+  background: #1A2519;
+}
+
+.diamond-grid3 .diamond:nth-child(53) {
+  background: #1A2519;
+}
+
+.diamond-grid3 .diamond:nth-child(54) {
+  background: #112E22;
+}
+
+.diamond-grid3 .diamond:nth-child(55) {
+  background: #264029;
+}
+
+.diamond-grid3 .diamond:nth-child(56) {
+  background: #0A0B0A;
+}
+
+.diamond-grid3 .diamond:nth-child(57) {
+  background: #3D6D53;
+}
+
+.diamond-grid3 .diamond:nth-child(58) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(59) {
+  background: #0B0F0B;
+}
+
+.diamond-grid3 .diamond:nth-child(60) {
+  background: #0F1E15;
+}
+
+.diamond-grid3 .diamond:nth-child(61) {
+  background: #FFC6A8;
+}
+
+.diamond-grid3 .diamond:nth-child(62) {
+  background: #49553F;
+}
+
+.diamond-grid3 .diamond:nth-child(63) {
+  background: #B48969;
+}
+
+.diamond-grid3 .diamond:nth-child(64) {
+  background: #F8E8E8;
+}
+
+.diamond-grid3 .diamond:hover {
+  background: #a6dc69;
+}
+
+.diamond-grid3 .diamond a {
+  display: block;
+  font-size: 1.3rem;
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-left: -25px;
+}
+
+.diamond-grid3 .diamond a:hover {
+  color: black;
+}
+
+.diamond-grid4 {
+  max-width: 50%;
+  width: auto;
+  max-width: 60vw;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: auto;
+  margin-top: 80rem;
+  max-height: 10vw;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.diamond-grid4::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.diamond-grid4 h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.diamond-grid4 .diamond {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 33.33333%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background: #002315;
+  border-radius: 2rem 0;
+  height: 20vw;
+  width: 20vw;
+  border: solid .5rem black;
+}
+
+.diamond-grid4 .diamond::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.diamond-grid4 .diamond:nth-child(1) {
+  background: #090909;
+}
+
+.diamond-grid4 .diamond:nth-child(1) > a {
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.diamond-grid4 .diamond:nth-child(2) {
+  background: #264029;
+}
+
+.diamond-grid4 .diamond:nth-child(3) {
+  background: #0F1E15;
+}
+
+.diamond-grid4 .diamond:nth-child(4) {
+  background: #B48969;
+}
+
+.diamond-grid4 .diamond:nth-child(5) {
+  background: #0B0F0B;
+}
+
+.diamond-grid4 .diamond:nth-child(6) {
+  background: #0B0F0B;
+}
+
+.diamond-grid4 .diamond:nth-child(7) {
+  background: #264029;
+}
+
+.diamond-grid4 .diamond:nth-child(8) {
+  background: #0F1E15;
+}
+
+.diamond-grid4 .diamond:nth-child(9) {
+  background: #0B0F0B;
+}
+
+.diamond-grid4 .diamond:nth-child(10) {
+  background: #0B0F0B;
+}
+
+.diamond-grid4 .diamond:nth-child(11) {
+  background: #1A2519;
+}
+
+.diamond-grid4 .diamond:nth-child(12) {
+  background: #B48969;
+}
+
+.diamond-grid4 .diamond:nth-child(13) {
+  background: #1A2519;
+}
+
+.diamond-grid4 .diamond:hover {
+  background: #a6dc69;
+}
+
+.diamond-grid4 .diamond a {
+  display: block;
+  font-size: 1.3rem;
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-left: -25px;
+}
+
+.diamond-grid4 .diamond a img {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  left: -4rem;
+  width: 90%;
+  top: 1rem;
+}
+
+.diamond-grid4 .diamond a p {
+  position: absolute;
+  bottom: -130%;
+  color: white;
+}
+
+.diamond-grid4 .diamond a:hover {
   color: black;
 }
 /*# sourceMappingURL=main.css.map */
