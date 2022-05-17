@@ -1,0 +1,52 @@
+html, body {
+    box-sizing: border-box;
+  background:black
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.diamond-grid {
+  @include center(300px);
+  margin-top: 100px;
+  height: 300px;
+  transform: rotate(50deg);
+  
+  .diamond {
+    @include span(1/6);
+    height: 50px;
+    background: #002214;
+    border: solid 1px black;
+    
+    
+     &:nth-child(5) {
+      background: linear-gradient(159deg, rgba(98,125,121,1) 0%, rgba(64,98,60,1) 100%);
+      
+       
+    }
+     &:nth-child(3) {
+      background: #815041;
+    }
+    
+    &:nth-child(9) {
+      background: #796139;
+    }
+      
+    &:hover {
+      background: #ccc;
+    }
+    
+    a {
+      display: block;
+      height: 100px;
+      padding-top: 50px;
+      padding-left: 20px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      transform: rotate(-45deg);
+      margin-left: -25px;
+    }
+  }
+}

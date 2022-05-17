@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../jeet/test/playground/sass/custom-settings.scss"
+    ],
+    "names": [],
+    "file": "custom-settings.css"
+}

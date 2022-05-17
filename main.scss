@@ -1,0 +1,161 @@
+@import "./jeet/scss/index.scss";
+
+@font-face {
+  font-family: "Grotesk";
+  src: url(fonts/Poppins-Light.ttf) format("truetype");
+}
+
+
+html, body {
+
+  // font-family: "Grotesk";
+  font-family: Arial, Helvetica, sans-serif;
+
+    box-sizing: border-box;
+  background: black;
+  font-size: 62.5%; /* Now 10px = 1rem! */
+}
+
+
+.title-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: white
+  
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.diamonds-container {
+  display:flex;
+}
+
+.diamond-grid {
+  max-width:50%;
+   @include center(70rem);
+  margin-right: auto;
+  margin-top: 25rem;
+  max-height: 3rem;
+  transform: rotate(45deg);
+  
+  .diamond {
+    @include span(1/8);
+    background: #002315;
+    height: 8rem;
+    width: 8rem;
+    border: solid 1px black;
+
+    
+     &:nth-child(1) {
+      background: #154029;
+    }
+
+    &:nth-child(1) > a {
+      color: black;
+      font-weight:bold;
+      font-size: 1.25rem;
+    }
+
+
+     &:nth-child(2) {
+      background: #154029;
+    }
+    
+      &:nth-child(3) {
+      background: #080b09;
+    }
+    
+       &:nth-child(4) {
+      background: #080B09;
+    }
+    
+      &:nth-child(5) {
+      background: #09150F;
+    }
+    //
+      &:nth-child(6) {
+      background: #080B09;
+    }
+      &:nth-child(7) {
+      background: #090F0B;
+    }
+    
+    &:nth-child(8) {
+      background: #0B1C14;
+    }
+    
+    &:nth-child(9) {
+      background: #080808;
+    }
+
+     &:nth-child(10) {
+      background: #796139;
+    }
+     &:nth-child(11) {
+      background: black;
+    }
+     &:nth-child(12) {
+      background: #89d381;
+    }
+     &:nth-child(13) {
+      background: #736863;
+    }
+     &:nth-child(16) {
+      background: black;
+    }
+     &:nth-child(17) {
+      background: #434630;
+    }
+     &:nth-child(18) {
+      background: black;
+    }
+      &:nth-child(19) {
+      background: #757266;
+    }
+      &:nth-child(20) {
+      background: black;
+    }
+      &:nth-child(21) {
+      background: #787066;
+    }
+       &:nth-child(22) {
+      background: #7d806c;
+    }
+       &:nth-child(23) {
+      background: #264323;
+    }
+       &:nth-child(24) {
+      background: black;
+    }
+
+    &:nth-child(28) {
+      background: rgb(16, 214, 42);
+    }
+
+    &:nth-child(33) {
+      background: rgb(137, 215, 147);
+    }
+      
+    &:hover {
+      background: rgb(204, 204, 204);
+    }
+    
+    a {
+      display: block;
+      font-size: 1.3rem;
+      height: 100px;
+      padding-top: 50px;
+      padding-left: 20px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      transform: rotate(-45deg);
+      margin-left: -25px;
+    }
+  }
+}
