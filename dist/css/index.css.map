@@ -2,10 +2,10 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../../jeet/scss/index.scss",
-        "../../jeet/scss/_settings.scss",
-        "../../jeet/scss/_functions.scss",
-        "../../jeet/scss/_grid.scss"
+        "../../scss/index.scss",
+        "../../scss/_settings.scss",
+        "../../scss/_functions.scss",
+        "../../scss/_grid.scss"
     ],
     "names": [],
     "file": "index.css"

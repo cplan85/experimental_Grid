@@ -16,6 +16,20 @@ html, body {
   font-size: 62.5%; /* Now 10px = 1rem! */
 }
 
+.mainHeader {
+  margin-bottom: 5em;
+  background-image: url("./assets/main.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 550px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
 
 .title-container {
   display:flex;
@@ -23,7 +37,7 @@ html, body {
   justify-content: center;
 }
 h1 {
-  color: white
+  color: #a6dc69;
   
 }
 
@@ -33,22 +47,31 @@ h1 {
 
 .diamonds-container {
   display:flex;
+  
 }
 
-.diamond-grid {
+.diamond-grid1 {
   max-width:50%;
    @include center(70rem);
   margin-right: auto;
   margin-top: 25rem;
   max-height: 3rem;
   transform: rotate(45deg);
+
+  h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
   
   .diamond {
     @include span(1/8);
     background: #002315;
+    border-radius: 2rem;
     height: 8rem;
     width: 8rem;
     border: solid 1px black;
+    // transform: skew(10deg, 15deg);
+    
 
     
      &:nth-child(1) {
@@ -94,55 +117,189 @@ h1 {
     }
 
      &:nth-child(10) {
-      background: #f39a00;
+      background: #0A2E1F;
     }
      &:nth-child(11) {
-      background: black;
+      background: #080808;
     }
      &:nth-child(12) {
-      background: #89d381;
+      background: #0A2E1F;
     }
      &:nth-child(13) {
-      background: #736863;
+      background: #0A2E1F;
+    }
+
+    &:nth-child(14) {
+      background: #09150F;
+    }
+
+    &:nth-child(15) {
+      background: #080808;
     }
      &:nth-child(16) {
-      background: black;
+      background: #090F0B;
     }
      &:nth-child(17) {
-      background: #434630;
+      background: #154029;
     }
      &:nth-child(18) {
-      background: black;
+      background: #0A2E1F;
     }
       &:nth-child(19) {
-      background: #757266;
+      background: #6A8968;
     }
       &:nth-child(20) {
-      background: black;
+      background: #154029;
     }
       &:nth-child(21) {
-      background: #787066;
+      background: #0C241A;
     }
        &:nth-child(22) {
-      background: #7d806c;
+      background: #090F0B;
     }
        &:nth-child(23) {
-      background: #264323;
+      background: #080B09;
     }
        &:nth-child(24) {
-      background: black;
+      background: #0B1C14;
+    }
+
+    &:nth-child(25) {
+      background: #275B3F;
+    }
+
+    &:nth-child(26) {
+      background: #9BADA3;
+    }
+
+    &:nth-child(27) {
+      background: #09150F;
     }
 
     &:nth-child(28) {
-      background: rgb(16, 214, 42);
+      background: #275B3F;
     }
 
-    &:nth-child(33) {
-      background: rgb(137, 215, 147);
+    &:nth-child(29) {
+      background: #6A8968;
     }
+
+    &:nth-child(30) {
+      background: #154029;
+    }
+
+    &:nth-child(31) {
+      background: #09150F;
+    }
+
+    &:nth-child(32) {
+      background: #080B09;
+    }
+
+
+    &:nth-child(33) {
+      background: #E3E6E4;
+    }
+
+    &:nth-child(34) {
+      background: #09150F;
+    }
+    &:nth-child(35) {
+      background: #090F0B;
+    }
+    &:nth-child(36) {
+      background: #090F0B;
+    }
+    &:nth-child(37) {
+      background: #0B1C14;
+    }
+    &:nth-child(38) {
+      background: #09150F;
+    }
+    &:nth-child(39) {
+      background: #090F0B;
+    }
+    &:nth-child(40) {
+      background: #080808;
+    }
+    &:nth-child(41) {
+      background: #0B1C14;
+    }
+    &:nth-child(42) {
+      background: #0B1C14;
+    }
+    &:nth-child(43) {
+      background: #090F0B;
+    }
+    &:nth-child(44) {
+      background: #0B1C14;
+    }
+    &:nth-child(45) {
+      background: #0A2E1F;
+    }
+    &:nth-child(46) {
+      background: #0C241A;
+    }
+    &:nth-child(47) {
+      background: #090F0B;
+    }
+    &:nth-child(48) {
+      background: #09150F;
+    }
+    &:nth-child(49) {
+      background: #0B1C14;
+    }
+    &:nth-child(50) {
+      background: #9BADA3;
+    }
+    &:nth-child(51) {
+      background: #080808;
+    }
+    &:nth-child(52) {
+      background: #09150F;
+    }
+    &:nth-child(53) {
+      background: #080B09;
+    }
+    &:nth-child(54) {
+      background: #080808;
+    }
+    &:nth-child(55) {
+      background: #080808;
+    }
+    &:nth-child(56) {
+      background: #09150F;
+    }
+    &:nth-child(57) {
+      background: #3D6D53;
+    }
+    &:nth-child(58) {
+      background: #CDCFCE;
+    }
+    &:nth-child(59) {
+      background: #9BADA3;
+    }
+    &:nth-child(60) {
+      background: #080B09;
+    }
+
+    &:nth-child(61) {
+      background: #080B09;
+    }
+
+    &:nth-child(62) {
+      background: #080B09;
+    }
+    &:nth-child(63) {
+      background: #0B1C14;
+    }
+    &:nth-child(64) {
+      background: #0C241A;
+    }
+
       
     &:hover {
-      background: rgb(204, 204, 204);
+      background: #a6dc69;
     }
     
     a {
@@ -156,6 +313,283 @@ h1 {
       text-decoration: none;
       transform: rotate(-45deg);
       margin-left: -25px;
+
+      &:hover {
+    
+        color: black;
+      }
+      
+    }
+  }
+}
+
+.diamond-grid2 {
+  max-width:50%;
+   @include center(60rem);
+  margin-top: 25rem;
+  max-height: 3rem;
+  transform: rotate(45deg);
+  
+  h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  .diamond {
+    @include span(1/4);
+    background: #002315;
+    border-radius: 5rem 0;
+    height: 15rem;
+    width: 15rem;
+    border: solid 3px black;
+    // transform: skew(10deg, 15deg);
+    
+
+    
+     &:nth-child(1) {
+      background: #154029;
+    }
+
+    &:nth-child(1) > a {
+      color: black;
+      font-weight:bold;
+      font-size: 1.25rem;
+    }
+
+
+     &:nth-child(2) {
+      background: #154029;
+    }
+    
+      &:nth-child(3) {
+      background: #080b09;
+    }
+    
+       &:nth-child(4) {
+      background: #080B09;
+    }
+    
+      &:nth-child(5) {
+      background: #09150F;
+    }
+    //
+      &:nth-child(6) {
+      background: #080B09;
+    }
+      &:nth-child(7) {
+      background: #090F0B;
+    }
+    
+    &:nth-child(8) {
+      background: #0B1C14;
+    }
+    
+    &:nth-child(9) {
+      background: #080808;
+    }
+
+     &:nth-child(10) {
+      background: #0A2E1F;
+    }
+     &:nth-child(11) {
+      background: #080808;
+    }
+     &:nth-child(12) {
+      background: #0A2E1F;
+    }
+     &:nth-child(13) {
+      background: #0A2E1F;
+    }
+
+    &:nth-child(14) {
+      background: #09150F;
+    }
+
+    &:nth-child(15) {
+      background: #080808;
+    }
+     &:nth-child(16) {
+      background: #090F0B;
+    }
+     &:nth-child(17) {
+      background: #154029;
+    }
+     &:nth-child(18) {
+      background: #0A2E1F;
+    }
+      &:nth-child(19) {
+      background: #6A8968;
+    }
+      &:nth-child(20) {
+      background: #154029;
+    }
+      &:nth-child(21) {
+      background: #0C241A;
+    }
+       &:nth-child(22) {
+      background: #090F0B;
+    }
+       &:nth-child(23) {
+      background: #080B09;
+    }
+       &:nth-child(24) {
+      background: #0B1C14;
+    }
+
+    &:nth-child(25) {
+      background: #275B3F;
+    }
+
+    &:nth-child(26) {
+      background: #9BADA3;
+    }
+
+    &:nth-child(27) {
+      background: #09150F;
+    }
+
+    &:nth-child(28) {
+      background: #275B3F;
+    }
+
+    &:nth-child(29) {
+      background: #6A8968;
+    }
+
+    &:nth-child(30) {
+      background: #154029;
+    }
+
+    &:nth-child(31) {
+      background: #09150F;
+    }
+
+    &:nth-child(32) {
+      background: #080B09;
+    }
+
+
+    &:nth-child(33) {
+      background: #E3E6E4;
+    }
+
+    &:nth-child(34) {
+      background: #09150F;
+    }
+    &:nth-child(35) {
+      background: #090F0B;
+    }
+    &:nth-child(36) {
+      background: #090F0B;
+    }
+    &:nth-child(37) {
+      background: #0B1C14;
+    }
+    &:nth-child(38) {
+      background: #09150F;
+    }
+    &:nth-child(39) {
+      background: #090F0B;
+    }
+    &:nth-child(40) {
+      background: #080808;
+    }
+    &:nth-child(41) {
+      background: #0B1C14;
+    }
+    &:nth-child(42) {
+      background: #0B1C14;
+    }
+    &:nth-child(43) {
+      background: #090F0B;
+    }
+    &:nth-child(44) {
+      background: #0B1C14;
+    }
+    &:nth-child(45) {
+      background: #0A2E1F;
+    }
+    &:nth-child(46) {
+      background: #0C241A;
+    }
+    &:nth-child(47) {
+      background: #090F0B;
+    }
+    &:nth-child(48) {
+      background: #09150F;
+    }
+    &:nth-child(49) {
+      background: #0B1C14;
+    }
+    &:nth-child(50) {
+      background: #9BADA3;
+    }
+    &:nth-child(51) {
+      background: #080808;
+    }
+    &:nth-child(52) {
+      background: #09150F;
+    }
+    &:nth-child(53) {
+      background: #080B09;
+    }
+    &:nth-child(54) {
+      background: #080808;
+    }
+    &:nth-child(55) {
+      background: #080808;
+    }
+    &:nth-child(56) {
+      background: #09150F;
+    }
+    &:nth-child(57) {
+      background: #3D6D53;
+    }
+    &:nth-child(58) {
+      background: #CDCFCE;
+    }
+    &:nth-child(59) {
+      background: #9BADA3;
+    }
+    &:nth-child(60) {
+      background: #080B09;
+    }
+
+    &:nth-child(61) {
+      background: #080B09;
+    }
+
+    &:nth-child(62) {
+      background: #080B09;
+    }
+    &:nth-child(63) {
+      background: #0B1C14;
+    }
+    &:nth-child(64) {
+      background: #0C241A;
+    }
+
+      
+    &:hover {
+      background: #a6dc69;
+    }
+    
+    a {
+      display: block;
+      font-size: 1.3rem;
+      height: 100px;
+      padding-top: 50px;
+      padding-left: 20px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      transform: rotate(-45deg);
+      margin-left: -25px;
+
+      &:hover {
+    
+        color: black;
+      }
+      
     }
   }
 }

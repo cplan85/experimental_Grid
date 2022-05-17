@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "Grotesk";
+  src: url(fonts/Poppins-Light.ttf) format("truetype");
+}
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: black;
+  font-size: 62.5%;
+  /* Now 10px = 1rem! */
+}
+
+.title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.diamonds-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.diamond-grid {
+  max-width: 50%;
+  width: auto;
+  max-width: 70rem;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: auto;
+  margin-top: 25rem;
+  max-height: 3rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.diamond-grid::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.diamond-grid .diamond {
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 12.5%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background: #002315;
+  height: 8rem;
+  width: 8rem;
+  border: solid 1px black;
+}
+
+.diamond-grid .diamond::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.diamond-grid .diamond:nth-child(1) {
+  background: #154029;
+}
+
+.diamond-grid .diamond:nth-child(1) > a {
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.diamond-grid .diamond:nth-child(2) {
+  background: #154029;
+}
+
+.diamond-grid .diamond:nth-child(3) {
+  background: #080b09;
+}
+
+.diamond-grid .diamond:nth-child(4) {
+  background: #080B09;
+}
+
+.diamond-grid .diamond:nth-child(5) {
+  background: #09150F;
+}
+
+.diamond-grid .diamond:nth-child(6) {
+  background: #080B09;
+}
+
+.diamond-grid .diamond:nth-child(7) {
+  background: #090F0B;
+}
+
+.diamond-grid .diamond:nth-child(8) {
+  background: #0B1C14;
+}
+
+.diamond-grid .diamond:nth-child(9) {
+  background: #080808;
+}
+
+.diamond-grid .diamond:nth-child(10) {
+  background: #0A2E1F;
+}
+
+.diamond-grid .diamond:nth-child(11) {
+  background: #080808;
+}
+
+.diamond-grid .diamond:nth-child(12) {
+  background: #89d381;
+}
+
+.diamond-grid .diamond:nth-child(13) {
+  background: #736863;
+}
+
+.diamond-grid .diamond:nth-child(16) {
+  background: black;
+}
+
+.diamond-grid .diamond:nth-child(17) {
+  background: #434630;
+}
+
+.diamond-grid .diamond:nth-child(18) {
+  background: black;
+}
+
+.diamond-grid .diamond:nth-child(19) {
+  background: #757266;
+}
+
+.diamond-grid .diamond:nth-child(20) {
+  background: black;
+}
+
+.diamond-grid .diamond:nth-child(21) {
+  background: #787066;
+}
+
+.diamond-grid .diamond:nth-child(22) {
+  background: #7d806c;
+}
+
+.diamond-grid .diamond:nth-child(23) {
+  background: #264323;
+}
+
+.diamond-grid .diamond:nth-child(24) {
+  background: black;
+}
+
+.diamond-grid .diamond:nth-child(28) {
+  background: #10d62a;
+}
+
+.diamond-grid .diamond:nth-child(33) {
+  background: #89d793;
+}
+
+.diamond-grid .diamond:hover {
+  background: #cccccc;
+}
+
+.diamond-grid .diamond a {
+  display: block;
+  font-size: 1.3rem;
+  height: 100px;
+  padding-top: 50px;
+  padding-left: 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-left: -25px;
+}
+/*# sourceMappingURL=main.css.map */
