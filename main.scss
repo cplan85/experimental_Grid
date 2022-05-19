@@ -60,14 +60,15 @@ h1 {
 
 .diamonds-container {
   display:flex;
-  margin-top: 5rem;
+  margin-top: 0rem;
+  margin-left: 0rem;
 }
 
 .diamonds-container1 {
   display:flex;
   position: relative;
-  left:20rem;
-   margin-top: 80rem;
+  // left:20rem;
+   margin-top: 5rem;
   
   img {
     position: absolute;
@@ -126,26 +127,25 @@ h1 {
 
 
 .diamond-grid1 {
-  max-width:50%;
-   @include center(36vw);
-   margin-left: 20%;
-  max-height: 3rem;
-  transform: rotate(45deg);
+  max-width:100%;
+   @include center(78vw);
+   margin-left: 0%;
+ 
 
   h1 {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     color: white;
   }
   
   .diamond {
-    @include span(1/8);
+    @include span(1/13);
     background: #002315;
-    border-radius: 1vw;
+    border-radius: 0vw 0;
     //8rem to go back to a good grid. 6vw
-    height: 4.5vw;
-    width: 4.5vw;
-    border: solid 1px black;
-    //  transform: skew(14deg);
+    height: 6vw;
+    width: 6vw;
+    border: solid 0px black;
+      // transform: skew(14deg, 14dg);
     
 
     
@@ -375,18 +375,20 @@ h1 {
       
     &:hover {
       background: #a6dc69;
+      border-color: rgba(0,0,0,0.1);
+      transform: scale(1.7);
+      transition: all .2s ease-in-out;
     }
     
     a {
       display: block;
-      font-size: .7vw;
+      font-size: 1vw;
       height: 100%;
       padding-top: 50%;
       padding-left: 25%;
       text-align: center;
-      color: rgb(255, 255, 255);
+      color: rgb(110, 110, 110);
       text-decoration: none;
-      transform: rotate(-45deg);
       margin-left: -25px;
 
       &:hover {
@@ -400,12 +402,10 @@ h1 {
 
 .diamond-grid2 {
 
-  max-width:50%;
+  max-width:100%;
   //60 rem to go back
-   @include center(36vw);
-  max-height: 3rem;
-  transform: rotate(45deg);
-  margin-right: -8%;
+   @include center(48vw);
+  
   
   h1 {
     font-size: 2.5vw;
@@ -414,11 +414,11 @@ h1 {
   .diamond {
     @include span(1/4);
     background: #002315;
-    border-radius: 5rem 0;
+    border-radius: 0rem 0;
     //15 rem to go back 9.5vw
     height: 9vw;
-    width: 9vw;
-    border: solid 3px black;
+    width: 12vw;
+    border: solid 0px black;
     // transform: skew(10deg, 15deg);
     
 
@@ -660,7 +660,7 @@ h1 {
       text-align: center;
       color: rgb(255, 255, 255);
       text-decoration: none;
-      transform: rotate(-45deg);
+  
       margin-left: -25px;
 
       &:hover {
@@ -673,11 +673,11 @@ h1 {
 }
 
 .diamond-grid3 {
-  max-width:50%;
-   @include center(32rem);
+  max-width:100%;
+   @include center(96vw);
   // margin-right: auto;
   max-height: 5rem;
-  transform: rotate(45deg);
+  margin-right:0;
 
   h1 {
     font-size: 2.5rem;
@@ -688,11 +688,11 @@ h1 {
     //span times height =32 so make sure center is at least 32 rem
     @include span(1/8);
     background: #002315;
-    border-radius: 2rem 0;
+    border-radius: 0rem 0;
     //8 rem original;
-    height: 4rem;
-    width: 4rem;
-    border: solid .5rem black;
+    height: 6vw;
+    width: 12vw;
+    border: solid 0rem black;
     //  transform: skew(17deg);
     
 
@@ -929,12 +929,12 @@ h1 {
       display: block;
       font-size: 1.3rem;
       height: 100px;
-      padding-top: 50px;
+      padding-top: 25%;
       padding-left: 20px;
       text-align: center;
       color: rgb(255, 255, 255);
       text-decoration: none;
-      transform: rotate(-45deg);
+      // transform: rotate(-45deg);
       margin-left: -25px;
 
       &:hover {
